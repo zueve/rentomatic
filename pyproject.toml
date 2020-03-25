@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "rentomatic"
+version = "0.1.0"
+description = ""
+authors = ["zueve"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pydantic = "^1.4"
+fastapi = "^0.52.0"
+uvicorn = "^0.11.3"
+
+[tool.poetry.dev-dependencies]
+flake8 = "^3.7.9"
+mypy = "^0.770"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
